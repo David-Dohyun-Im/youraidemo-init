@@ -70,12 +70,12 @@ export default function TeamSection() {
                         <p 
                             className="arial-rounded-text"
                             style={{
-                                fontFamily: 'Arial Rounded MT Regular, Arial, sans-serif !important',
+                                fontFamily: 'Arial Rounded MT Regular, Arial, sans-serif',
                                 fontWeight: 100,
                                 fontSize: '16px',
-                                fontStyle: 'normal !important',
-                                fontVariant: 'normal !important',
-                                textTransform: 'none !important'
+                                fontStyle: 'normal',
+                                fontVariant: 'normal',
+                                textTransform: 'none'
                             }}
                         >During each engagement, we conduct regular check-ins with the client, because only they can determine whether the AI solutions truly align with their goals and ways of working.</p>
                     </motion.div>

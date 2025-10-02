@@ -11,7 +11,7 @@ const ProjectTabDemo = () => {
       number: "01",
       title: "CarePath — Virtual Health Guide",
       description: "We built an AI assistant that listens to symptoms and guides patients toward the right treatment in real time.",
-      image: "https://framerusercontent.com/images/BlgeL0EotFTQ0vq42WKucxKVO4.png?width=960&height=1200",
+      image: "/images/casestudy1.png",
       stats: [
         { value: "44%", label: "Quicker diagnosis support" },
         { value: "28%", label: "Increase in patient trust" }
@@ -22,7 +22,7 @@ const ProjectTabDemo = () => {
       number: "02", 
       title: "TradeMind — AI Market Navigator",
       description: "We created an intelligent platform that interprets financial signals and executes trades with smart automation.",
-      image: "https://framerusercontent.com/images/BlgeL0EotFTQ0vq42WKucxKVO4.png?width=960&height=1200",
+      image: "/images/casestudy2.png",
       stats: [
         { value: "47%", label: "Better forecasting accuracy" },
         { value: "30%", label: "Drop in trading mistakes" }
@@ -33,7 +33,7 @@ const ProjectTabDemo = () => {
       number: "03",
       title: "TeamFlow — AI HR Assistant", 
       description: "We designed an automation bot that streamlines onboarding, manages employee requests, and answers HR questions instantly.",
-      image: "https://framerusercontent.com/images/BlgeL0EotFTQ0vq42WKucxKVO4.png?width=960&height=1200",
+      image: "/images/casestudy3.png",
       stats: [
         { value: "20%", label: "Less administrative workload" },
         { value: "12%", label: "Higher team efficiency" }

@@ -221,7 +221,7 @@ const OrbFeatureDemo = () => {
           >
             {/* Top Left - Image + Text Card */}
             <motion.div 
-              className="bg-[#F0F0EE] rounded-2xl border-2 border-transparent hover:border-sky-400 transition-all flex flex-row items-center justify-center"
+              className="bg-[#F0F0EE] rounded-2xl border-2 border-transparent transition-all flex flex-row items-center justify-center"
               style={{
                 width: '705.6px',
                 height: '268px'
@@ -233,7 +233,7 @@ const OrbFeatureDemo = () => {
             >
             {/* Image Section - 336x228 */}
             <div 
-              className="relative rounded-2xl overflow-hidden m-6 border-2 border-transparent hover:border-sky-400 transition-all"
+              className="relative rounded-2xl overflow-hidden m-6 border-2 border-transparent transition-all"
               style={{
                 width: '312px',
                 height: '196px'
@@ -257,7 +257,7 @@ const OrbFeatureDemo = () => {
             
             {/* Content Section - 336x228 */}
             <div 
-              className="p-6 flex items-center border-2 border-transparent hover:border-sky-400 transition-all rounded-2xl"
+              className="p-6 flex items-center border-2 border-transparent transition-all rounded-2xl"
               style={{
                 width: '312px',
                 height: '196px'
@@ -265,7 +265,7 @@ const OrbFeatureDemo = () => {
             >
               <div className="w-full">
                 <h3 
-                  className="text-gray-900 mb-2 border-2 border-transparent hover:border-sky-400 transition-all rounded-lg px-2 py-1"
+                  className="text-gray-900 mb-2 border-2 border-transparent transition-all rounded-lg px-2 py-1"
                   style={{
                     fontFamily: 'Arial Rounded MT Bold, Arial, sans-serif',
                     fontSize: '23px',
@@ -284,7 +284,7 @@ const OrbFeatureDemo = () => {
 
             {/* Top Right - Text Only Card */}
             <motion.div 
-              className="bg-[#F0F0EE] rounded-2xl border-2 border-transparent hover:border-sky-400 transition-all"
+              className="bg-[#F0F0EE] rounded-2xl border-2 border-transparent transition-all"
               style={{
                 width: '470px',
                 height: '268px'
@@ -296,7 +296,7 @@ const OrbFeatureDemo = () => {
             >
             <div className="p-6 h-full flex flex-col justify-center">
               <h3 
-                className="text-gray-900 mb-2 border-2 border-transparent hover:border-sky-400 transition-all rounded-lg px-2 py-1"
+                className="text-gray-900 mb-2 border-2 border-transparent transition-all rounded-lg px-2 py-1"
                 style={{
                   fontFamily: 'Arial Rounded MT Bold, Arial, sans-serif',
                   fontSize: '23px',
@@ -324,7 +324,7 @@ const OrbFeatureDemo = () => {
           >
             {/* Bottom Left - Text Only Card */}
             <motion.div 
-              className="bg-[#F0F0EE] rounded-2xl border-2 border-transparent hover:border-sky-400 transition-all"
+              className="bg-[#F0F0EE] rounded-2xl border-2 border-transparent transition-all"
               style={{
                 width: '470px',
                 height: '268px'
@@ -336,7 +336,7 @@ const OrbFeatureDemo = () => {
             >
             <div className="p-6 h-full flex flex-col justify-center">
               <h3 
-                className="text-gray-900 mb-2 border-2 border-transparent hover:border-sky-400 transition-all rounded-lg px-2 py-1"
+                className="text-gray-900 mb-2 border-2 border-transparent transition-all rounded-lg px-2 py-1"
                 style={{
                   fontFamily: 'Arial Rounded MT Bold, Arial, sans-serif',
                   fontSize: '23px',
@@ -354,7 +354,7 @@ const OrbFeatureDemo = () => {
 
             {/* Bottom Right - Image + Text Card */}
             <motion.div 
-              className="bg-[#F0F0EE] rounded-2xl border-2 border-transparent hover:border-sky-400 transition-all flex flex-row items-center justify-center"
+              className="bg-[#F0F0EE] rounded-2xl border-2 border-transparent transition-all flex flex-row items-center justify-center"
               style={{
                 width: '705.6px',
                 height: '268px'
@@ -366,7 +366,7 @@ const OrbFeatureDemo = () => {
             >
             {/* Image Section - 336x228 */}
             <div 
-              className="relative rounded-2xl overflow-hidden m-6 border-2 border-transparent hover:border-sky-400 transition-all"
+              className="relative rounded-2xl overflow-hidden m-6 border-2 border-transparent transition-all"
               style={{
                 width: '312px',
                 height: '196px'
@@ -390,7 +390,7 @@ const OrbFeatureDemo = () => {
             
             {/* Content Section - 336x228 */}
             <div 
-              className="p-6 flex items-center border-2 border-transparent hover:border-sky-400 transition-all rounded-2xl"
+              className="p-6 flex items-center border-2 border-transparent transition-all rounded-2xl"
               style={{
                 width: '312px',
                 height: '196px'
@@ -398,7 +398,7 @@ const OrbFeatureDemo = () => {
             >
               <div className="w-full">
                 <h3 
-                  className="text-gray-900 mb-2 border-2 border-transparent hover:border-sky-400 transition-all rounded-lg px-2 py-1"
+                  className="text-gray-900 mb-2 border-2 border-transparent transition-all rounded-lg px-2 py-1"
                   style={{
                     fontFamily: 'Arial Rounded MT Bold, Arial, sans-serif',
                     fontSize: '23px',

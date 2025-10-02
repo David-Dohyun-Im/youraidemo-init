@@ -325,7 +325,6 @@ const BlueCursorWithTooltip = ({
                 variant={4}
                 size="thumb"
                 className="flex-shrink-0"
-                disableHoverBorder
                 onMouseEnter={() => onButtonHover(4)}
                 onMouseLeave={() => onButtonHover(null)}
                 onClick={(e) => {
@@ -337,7 +336,6 @@ const BlueCursorWithTooltip = ({
                 variant={5}
                 size="thumb"
                 className="flex-shrink-0"
-                disableHoverBorder
                 onMouseEnter={() => onButtonHover(5)}
                 onMouseLeave={() => onButtonHover(null)}
                 onClick={(e) => {
@@ -545,7 +543,7 @@ export const MoodHeroDemo = () => {
       ) : (
         /* 기본 Navbar */
         <nav 
-          className="absolute top-0 left-0 right-0 z-50 w-full px-6 py-4 border-2 border-transparent hover:border-sky-400 transition-all cursor-pointer"
+          className="absolute top-0 left-0 right-0 z-50 w-full px-6 py-4 border-2 border-transparent transition-all cursor-pointer"
           onClick={(e) => {
             e.stopPropagation();
             setNavbarClicked(true);
@@ -646,7 +644,7 @@ export const MoodHeroDemo = () => {
                   Company
                 </a>
                 <button 
-                  className="bg-white text-black px-4 py-2 rounded-full text-sm font-medium hover:bg-white/90 transition-colors cursor-default border-2 border-transparent hover:border-sky-400"
+                  className="bg-white text-black px-4 py-2 rounded-full text-sm font-medium hover:bg-white/90 transition-colors cursor-default border-2 border-transparent"
                   style={{ 
                     fontFamily: 'Arial Rounded MT Regular, Arial, sans-serif',
                     fontWeight: '550',
@@ -702,7 +700,7 @@ export const MoodHeroDemo = () => {
           
            {/* 1줄: Meet YourAI */}
            <motion.h1
-             className="text-[60px] font-light text-white leading-[1.05] border-2 border-transparent hover:border-sky-400 cursor-default"
+             className="text-[60px] font-light text-white leading-[1.05] border-2 border-transparent cursor-default"
              style={{ 
                fontFamily: 'Arial Rounded MT Regular, Arial, sans-serif',
                fontWeight: '100',
@@ -727,7 +725,7 @@ export const MoodHeroDemo = () => {
              transition={{ duration: 0.8, ease: "easeOut", delay: 0.5 }}
            >
              <span
-               className="font-normal border-2 border-transparent hover:border-sky-400 cursor-default"
+               className="font-normal border-2 border-transparent cursor-default"
                style={{
                  fontFamily: 'Playfair Display Italic, Georgia, Times New Roman, serif',
                  fontWeight: '400',
@@ -737,7 +735,7 @@ export const MoodHeroDemo = () => {
                Reimagine work
              </span>
              <span
-               className="font-normal border-2 border-transparent hover:border-sky-400 cursor-default"
+               className="font-normal border-2 border-transparent cursor-default"
                style={{
                  fontFamily: 'Arial Rounded MT Regular, Arial, sans-serif',
                  fontWeight: '100',
@@ -748,7 +746,7 @@ export const MoodHeroDemo = () => {
              </span>
              <br />
              <span
-               className="font-normal border-2 border-transparent hover:border-sky-400 cursor-default"
+               className="font-normal border-2 border-transparent cursor-default"
                style={{
                  fontFamily: 'Arial Rounded MT Regular, Arial, sans-serif',
                  fontWeight: '100',
@@ -788,7 +786,7 @@ export const MoodHeroDemo = () => {
             </div>
           ) : (
           <motion.button
-            className="bg-white text-black rounded-2xl font-medium cursor-default hover:shadow-[0_0_0_2px_#38bdf8] h-[50px]"
+            className="bg-white text-black rounded-2xl font-medium cursor-default h-[50px]"
             style={{ 
               fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif',
               fontWeight: '500',
@@ -835,7 +833,7 @@ export const MoodHeroDemo = () => {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.7 }}
         >
           <p
-            className="text-white text-lg border-2 border-transparent hover:border-sky-400 cursor-default"
+            className="text-white text-lg border-2 border-transparent cursor-default"
             style={{ 
               fontFamily: 'Arial Rounded MT Regular, Arial, sans-serif',
               fontWeight: '100',
@@ -858,7 +856,7 @@ export const MoodHeroDemo = () => {
        >
          <div className="space-y-2">
              <motion.button 
-               className="w-full bg-transparent border-2 border-white/30 text-white px-6 rounded-2xl text-left hover:bg-white/10 hover:border-sky-400 transition-all duration-300 flex items-center group cursor-default"
+               className="w-full bg-transparent border-2 border-white/30 text-white px-6 rounded-2xl text-left hover:bg-white/10 transition-all duration-300 flex items-center group cursor-default"
                style={{ 
                  fontFamily: 'Arial Rounded MT Regular, Arial, sans-serif',
                  fontWeight: '100',
@@ -872,7 +870,7 @@ export const MoodHeroDemo = () => {
 
            <div className="flex items-center gap-2">
               <motion.button 
-                className="flex-1 bg-transparent border-2 border-white/30 text-white px-6 rounded-2xl text-left hover:bg-white/10 hover:border-sky-400 transition-all duration-300 flex items-center group cursor-default"
+                className="flex-1 bg-transparent border-2 border-white/30 text-white px-6 rounded-2xl text-left hover:bg-white/10 transition-all duration-300 flex items-center group cursor-default"
                 style={{ 
                   fontFamily: 'Arial Rounded MT Regular, Arial, sans-serif',
                   fontWeight: '100',
@@ -885,7 +883,7 @@ export const MoodHeroDemo = () => {
               </motion.button>
              
              <motion.button 
-               className="bg-transparent border-2 border-white/30 text-white rounded-2xl hover:bg-white/10 hover:border-sky-400 transition-all duration-300 flex items-center justify-center cursor-default"
+               className="bg-transparent border-2 border-white/30 text-white rounded-2xl hover:bg-white/10 transition-all duration-300 flex items-center justify-center cursor-default"
                style={{ 
                  width: '50px',
                  height: '50px'

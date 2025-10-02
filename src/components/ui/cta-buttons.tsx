@@ -11,7 +11,6 @@ export type CTAButtonVariantProps = {
   label?: string;
   size?: "thumb" | "display";
   className?: string;
-  disableHoverBorder?: boolean;
   onMouseEnter?: () => void;
   onMouseLeave?: () => void;
   onClick?: (e: React.MouseEvent) => void;
@@ -51,14 +50,13 @@ function getVariantClasses(variant: VariantId) {
   }
 }
 
-export function CTAButtonVariant({ variant, label = "Start free exploration", size = "thumb", className, disableHoverBorder, onMouseEnter, onMouseLeave, onClick, }: CTAButtonVariantProps) {
+export function CTAButtonVariant({ variant, label = "Start free exploration", size = "thumb", className, onMouseEnter, onMouseLeave, onClick, }: CTAButtonVariantProps) {
   const sizing = baseSizing[size];
 
   return (
     <motion.button
       className={cn(
         "inline-flex items-center justify-center cursor-pointer border-2 border-transparent transition-all h-[50px]",
-        !disableHoverBorder && "hover:border-sky-400",
         sizing.text,
         sizing.px,
         sizing.py,
@@ -77,5 +75,4 @@ export function CTAButtonVariant({ variant, label = "Start free exploration", si
 }
 
 export default CTAButtonVariant;
-
 

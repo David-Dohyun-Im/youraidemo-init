@@ -33,7 +33,7 @@ export default function TestimonialsDemo() {
                                 fontFamily: 'Playfair Display Italic, Georgia, Times New Roman, serif',
                                 fontWeight: 400,
                                 fontStyle: 'italic'
-                            }}>user </span>
+                            }}>clients </span>
                             <span style={{
                                 fontFamily: 'Arial Rounded MT Regular, Arial, sans-serif',
                                 fontWeight: 100
@@ -61,7 +61,7 @@ export default function TestimonialsDemo() {
                         </CardHeader>
                         <CardContent>
                             <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
-                                <p className="text-xl font-medium">YourAI has transformed the way I develop web applications. Their extensive collection of AI components, blocks, and templates has significantly accelerated my workflow. The flexibility to customize every aspect allows me to create unique user experiences. YourAI is a game-changer for modern web development</p>
+                                <p className="text-xl font-medium">AI Consulting Pro transformed our business operations completely. Their strategic AI implementation increased our efficiency by 40% and reduced operational costs significantly. The team's expertise in machine learning and automation helped us stay ahead of our competition.</p>
 
                                 <div className="grid grid-cols-[auto_1fr] items-center gap-3">
                                     <Avatar className="size-12">
@@ -76,8 +76,8 @@ export default function TestimonialsDemo() {
                                     </Avatar>
 
                                     <div>
-                                        <cite className="text-sm font-medium">Shekinah Tshiokufila</cite>
-                                        <span className="text-muted-foreground block text-sm">Software Ingineer</span>
+                                        <cite className="text-sm font-medium">Sarah Chen</cite>
+                                        <span className="text-muted-foreground block text-sm">CEO, TechFlow Solutions</span>
                                     </div>
                                 </div>
                             </blockquote>
@@ -86,7 +86,7 @@ export default function TestimonialsDemo() {
                     <Card className="md:col-span-2">
                         <CardContent className="h-full pt-6">
                             <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
-                                <p className="text-xl font-medium">YourAI is really extraordinary and very practical, no need to break your head. A real gold mine.</p>
+                                <p className="text-xl font-medium">The AI automation solutions they implemented saved us 20 hours per week. Their approach to data intelligence and process optimization is truly exceptional.</p>
 
                                 <div className="grid grid-cols-[auto_1fr] items-center gap-3">
                                     <Avatar className="size-12">
@@ -100,8 +100,8 @@ export default function TestimonialsDemo() {
                                         <AvatarFallback>JY</AvatarFallback>
                                     </Avatar>
                                     <div>
-                                        <cite className="text-sm font-medium">Jonathan Yombo</cite>
-                                        <span className="text-muted-foreground block text-sm">Software Ingineer</span>
+                                        <cite className="text-sm font-medium">Michael Rodriguez</cite>
+                                        <span className="text-muted-foreground block text-sm">CTO, DataDriven Inc</span>
                                     </div>
                                 </div>
                             </blockquote>

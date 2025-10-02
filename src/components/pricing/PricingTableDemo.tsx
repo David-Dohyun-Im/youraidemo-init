@@ -71,7 +71,7 @@ export function PricingTable({
               type="button"
               onClick={() => setIsYearly(false)}
               className={cn(
-                "px-3 py-1 rounded-md transition-colors cursor-default border-2 border-transparent",
+                "px-3 py-1 rounded-md transition-colors ",
                 !isYearly ? "bg-zinc-100 dark:bg-zinc-800" : "text-zinc-500",
               )}
               style={{ fontFamily: 'Arial Rounded MT Regular, Arial, sans-serif' }}
@@ -82,7 +82,7 @@ export function PricingTable({
               type="button"
               onClick={() => setIsYearly(true)}
               className={cn(
-                "px-3 py-1 rounded-md transition-colors cursor-default border-2 border-transparent",
+                "px-3 py-1 rounded-md transition-colors ",
                 isYearly ? "bg-zinc-100 dark:bg-zinc-800" : "text-zinc-500",
               )}
               style={{ fontFamily: 'Arial Rounded MT Regular, Arial, sans-serif' }}
@@ -196,32 +196,32 @@ function shouldShowCheck(
 }
 
 const features = [
-    { name: "Core Analytics", included: "starter" },
-    { name: "Up to 5 team members", included: "starter" },
-    { name: "Basic support", included: "starter" },
-    { name: "Smart Analytics", included: "pro" },
-    { name: "Up to 20 team members", included: "pro" },
-    { name: "Priority support", included: "pro" },
-    { name: "Custom AI Integrations", included: "all" },
-    { name: "Unlimited team members", included: "all" },
-    { name: "24/7 expert support", included: "all" },
+    { name: "AI Strategy Assessment", included: "starter" },
+    { name: "Basic Implementation Plan", included: "starter" },
+    { name: "Email Support", included: "starter" },
+    { name: "Custom AI Solutions", included: "pro" },
+    { name: "Process Automation Setup", included: "pro" },
+    { name: "Priority Support", included: "pro" },
+    { name: "Full AI Transformation", included: "all" },
+    { name: "Dedicated AI Team", included: "all" },
+    { name: "24/7 Expert Support", included: "all" },
 ];
 
 const plans = [
     {
-        name: "Basic",
-        price: { monthly: 19, yearly: 182 },
+        name: "Consultation",
+        price: { monthly: 299, yearly: 2990 },
         level: "starter",
     },
     {
-        name: "Growth",
-        price: { monthly: 59, yearly: 566 },
+        name: "Implementation",
+        price: { monthly: 899, yearly: 8990 },
         level: "pro",
-        popular: false,
+        popular: true,
     },
     {
-        name: "Enterprise",
-        price: { monthly: 129, yearly: 1238 },
+        name: "Transformation",
+        price: { monthly: 1999, yearly: 19990 },
         level: "all",
     },
 ];

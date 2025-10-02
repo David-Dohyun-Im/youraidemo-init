@@ -100,7 +100,7 @@ const ProjectTabDemo = () => {
               <button
                 key={project.id}
                 onClick={() => setActiveTab(index)}
-                className={`flex items-center justify-center rounded-lg transition-all duration-300 cursor-default border-2 border-transparent ${
+                className={`flex items-center justify-center rounded-lg transition-all duration-300  ${
                   activeTab === index 
                     ? 'bg-white shadow-lg' 
                     : 'bg-gray-50 hover:bg-gray-100'

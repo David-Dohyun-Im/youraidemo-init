@@ -228,10 +228,10 @@ export const MoodHeroDemo = () => {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.7 }}
         >
           <p
-            className="text-white text-lg  "
+            className="text-white/70 text-lg font-medium"
             style={{ 
               fontFamily: 'Arial Rounded MT Regular, Arial, sans-serif',
-              fontWeight: '100',
+              fontWeight: '400',
               lineHeight: '1.2'
             }}
           >
@@ -260,7 +260,7 @@ export const MoodHeroDemo = () => {
                whileHover={{ scale: 1.02 }}
                whileTap={{ scale: 0.98 }}
              >
-               <span className="text-lg font-light">Solutions for complex tasks</span>
+               <span className="text-lg font-medium text-white/70">Solutions for complex tasks</span>
              </motion.button>
 
            <div className="flex items-center gap-2">
@@ -274,7 +274,7 @@ export const MoodHeroDemo = () => {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
-                <span className="text-lg font-light">Conversational & Adaptive</span>
+                <span className="text-lg font-medium text-white/70">Conversational & Adaptive</span>
               </motion.button>
              
              <motion.button 
